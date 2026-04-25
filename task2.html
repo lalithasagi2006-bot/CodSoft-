@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodSoft Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Welcome to My Website</h1>
+            <p>Learn Web Development with Me</p>
+            <button class="btn">Get Started</button>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="about">
+        <h2>About Us</h2>
+        <p>This is a simple landing page created for CodSoft Internship.</p>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services">
+        <h2>Our Services</h2>
+        <div class="service-container">
+            <div class="service-card">Web Design</div>
+            <div class="service-card">Frontend Development</div>
+            <div class="service-card">Responsive Design</div>
+        </div>
+    </section>
+</body>
+</html>
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #28a745; /* Green background */
+    color: white;
+    padding: 100px 20px;
+}
+
+.hero h1 { font-size: 3rem; margin: 0; }
+.hero p { font-size: 1.2rem; }
+
+.btn {
+    background-color: white;
+    color: #28a745;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+/* General Sections */
+.about, .services {
+    padding: 50px 20px;
+    background-color: white;
+}
+
+/* Service Cards */
+.service-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.service-card {
+    background: #fff;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 200px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
